@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 
 cd /Users/buddybuild/workspace
+
+echo '=== Start to run : npm install node 5.6.0'
+npm install -g n
+n 5.6.0
+
 echo '=== Start to run : npm install npm -g'
 npm install npm -g
 
