@@ -2,7 +2,7 @@
 
 cd /Users/buddybuild/workspace
 
-echo '=== Start to run : npm install node 5.6.0'
+echo '=== Install node 5.6.0'
 npm install -g n
 n 5.6.0
 
